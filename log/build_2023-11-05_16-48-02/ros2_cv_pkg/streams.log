@@ -1,0 +1,80 @@
+[0.010s] Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/ros2_cv/src/ros2_cv_pkg -DCMAKE_INSTALL_PREFIX=/home/johan/ros2_cv/install/ros2_cv_pkg
+[0.050s] -- The C compiler identification is GNU 9.4.0
+[0.097s] -- The CXX compiler identification is GNU 9.4.0
+[0.100s] -- Check for working C compiler: /usr/bin/cc
+[0.160s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.161s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.290s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.399s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.399s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.518s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.608s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.629s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.720s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.721s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.722s] -- Looking for pthread.h
+[0.771s] -- Looking for pthread.h - found
+[0.772s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.830s] -- Looking for pthread_create in pthreads
+[0.895s] -- Looking for pthread_create in pthreads - not found
+[0.896s] -- Looking for pthread_create in pthread
+[0.962s] -- Looking for pthread_create in pthread - found
+[0.964s] -- Found Threads: TRUE  
+[1.070s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.150s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.167s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.204s] -- Found OpenCV: /usr/local (found version "4.1.0") 
+[1.225s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.274s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.275s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.275s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johan/ros2_cv/src/ros2_cv_pkg/include>
+[1.275s] -- Configured cppcheck exclude dirs and/or files: 
+[1.275s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.276s] -- Configured cpplint exclude dirs and/or files: 
+[1.276s] -- Added test 'lint_cmake' to check CMake code style
+[1.276s] -- Added test 'uncrustify' to check C / C++ code style
+[1.276s] -- Configured uncrustify additional arguments: 
+[1.276s] -- Added test 'xmllint' to check XML markup files
+[1.278s] -- Configuring done
+[1.288s] -- Generating done
+[1.289s] -- Build files have been written to: /home/johan/ros2_cv/build/ros2_cv_pkg
+[1.295s] Invoked command in '/home/johan/ros2_cv/build/ros2_cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/ros2_cv/src/ros2_cv_pkg -DCMAKE_INSTALL_PREFIX=/home/johan/ros2_cv/install/ros2_cv_pkg
+[1.297s] Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/ros2_cv_pkg -- -j16 -l16
+[1.331s] [35m[1mScanning dependencies of target cv_subscription[0m
+[1.364s] [ 50%] [32mBuilding CXX object CMakeFiles/cv_subscription.dir/src/cv_subscription.cpp.o[0m
+[5.268s] [100%] [32m[1mLinking CXX executable cv_subscription[0m
+[5.745s] [100%] Built target cv_subscription
+[5.753s] Invoked command in '/home/johan/ros2_cv/build/ros2_cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/ros2_cv_pkg -- -j16 -l16
+[5.783s] Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/ros2_cv_pkg
+[5.793s] -- Install configuration: ""
+[5.793s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription
+[5.794s] -- Set runtime path of "/home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription" to ""
+[5.794s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_cv_pkg
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_cv_pkg
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.sh
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.dsv
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.sh
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.dsv
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.bash
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.sh
+[5.795s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.zsh
+[5.796s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.dsv
+[5.796s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.dsv
+[5.796s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/packages/ros2_cv_pkg
+[5.796s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig.cmake
+[5.796s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig-version.cmake
+[5.796s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.xml
+[5.797s] Invoked command in '/home/johan/ros2_cv/build/ros2_cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/ros2_cv_pkg

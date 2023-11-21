@@ -1,0 +1,20 @@
+[100%] Built target cv_publisher
+[ 75%] Built target cv_subscription
+-- Install configuration: ""
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_publisher
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_cv_pkg
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_cv_pkg
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.sh
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.dsv
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.bash
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.sh
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.zsh
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.dsv
+-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.dsv
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/packages/ros2_cv_pkg
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig.cmake
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig-version.cmake
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.xml

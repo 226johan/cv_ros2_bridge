@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000094] (ros2_cv_pkg) JobQueued: {'identifier': 'ros2_cv_pkg', 'dependencies': OrderedDict()}
+[0.000113] (turtle) JobQueued: {'identifier': 'turtle', 'dependencies': OrderedDict()}
+[0.000125] (ros2_cv_pkg) JobStarted: {'identifier': 'ros2_cv_pkg'}
+[0.009374] (turtle) JobStarted: {'identifier': 'turtle'}
+[0.014338] (ros2_cv_pkg) JobProgress: {'identifier': 'ros2_cv_pkg', 'progress': 'cmake'}
+[0.015266] (ros2_cv_pkg) JobProgress: {'identifier': 'ros2_cv_pkg', 'progress': 'build'}
+[0.015454] (ros2_cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johan/ros2_cv/build/ros2_cv_pkg', '--', '-j16', '-l16'], 'cwd': '/home/johan/ros2_cv/build/ros2_cv_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'johan'), ('SSH_AGENT_PID', '1897'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/tbb-2019_U8/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/johan'), ('OLDPWD', '/home/johan/ros2_cv/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1749'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=711caa406997853908410e3465474468'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johan'), ('JOURNAL_STREAM', '8:30679'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/johan:@/tmp/.ICE-unix/1964,unix/johan:/tmp/.ICE-unix/1964'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '9f70f7bd50404f09a668b261c07b9dda'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac8e54e5_a1d7_411e_9d2d_e8d21af05cd9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/johan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.520'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/johan'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johan/ros2_cv/build/ros2_cv_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=711caa406997853908410e3465474468'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.018760] (turtle) JobProgress: {'identifier': 'turtle', 'progress': 'cmake'}
+[0.018985] (turtle) Command: {'cmd': ['/usr/bin/cmake', '/home/johan/ros2_cv/src/turtle', '-DCMAKE_INSTALL_PREFIX=/home/johan/ros2_cv/install/turtle'], 'cwd': '/home/johan/ros2_cv/build/turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'johan'), ('SSH_AGENT_PID', '1897'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/tbb-2019_U8/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/johan'), ('OLDPWD', '/home/johan/ros2_cv/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1749'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=711caa406997853908410e3465474468'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johan'), ('JOURNAL_STREAM', '8:30679'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/johan:@/tmp/.ICE-unix/1964,unix/johan:/tmp/.ICE-unix/1964'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '9f70f7bd50404f09a668b261c07b9dda'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac8e54e5_a1d7_411e_9d2d_e8d21af05cd9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/johan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.520'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/johan'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johan/ros2_cv/build/turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=711caa406997853908410e3465474468'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.045096] (ros2_cv_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cv_publisher\x1b[0m\n'}
+[0.045330] (ros2_cv_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cv_subscription\x1b[0m\n'}
+[0.055294] (turtle) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.069294] (ros2_cv_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cv_subscription.dir/src/cv_subscription.cpp.o\x1b[0m\n'}
+[0.070648] (ros2_cv_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cv_publisher.dir/src/cv_publisher.cpp.o\x1b[0m\n'}
+[0.091339] (turtle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.094469] (turtle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099663] (-) TimerEvent: {}
+[0.140576] (turtle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.141573] (turtle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.190033] (turtle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199763] (-) TimerEvent: {}
+[0.203516] (turtle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.203875] (turtle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.206592] (turtle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.262982] (turtle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.264428] (turtle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299871] (-) TimerEvent: {}
+[0.320292] (turtle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.333493] (turtle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.333793] (turtle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.335663] (turtle) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.351941] (turtle) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.352174] (turtle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400010] (-) TimerEvent: {}
+[0.475830] (turtle) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.500235] (-) TimerEvent: {}
+[0.506585] (turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.511075] (turtle) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.574163] (turtle) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.595327] (turtle) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.600378] (-) TimerEvent: {}
+[0.648856] (turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686535] (turtle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.687436] (turtle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.688072] (turtle) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700509] (-) TimerEvent: {}
+[0.737556] (turtle) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.737896] (turtle) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.792131] (turtle) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.792406] (turtle) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.800625] (-) TimerEvent: {}
+[0.837312] (turtle) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.837567] (turtle) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.888761] (turtle) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.889554] (turtle) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900787] (-) TimerEvent: {}
+[0.992271] (turtle) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.000943] (-) TimerEvent: {}
+[1.016678] (turtle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.068128] (turtle) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.068586] (turtle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.068845] (turtle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johan/ros2_cv/src/turtle/include>\n'}
+[1.068965] (turtle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.069168] (turtle) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.069305] (turtle) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.069532] (turtle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.069955] (turtle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.070085] (turtle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.070210] (turtle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.071893] (turtle) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.076369] (turtle) StdoutLine: {'line': b'-- Generating done\n'}
+[1.077209] (turtle) StdoutLine: {'line': b'-- Build files have been written to: /home/johan/ros2_cv/build/turtle\n'}
+[1.081299] (turtle) CommandEnded: {'returncode': 0}
+[1.081835] (turtle) JobProgress: {'identifier': 'turtle', 'progress': 'build'}
+[1.082167] (turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johan/ros2_cv/build/turtle', '--', '-j16', '-l16'], 'cwd': '/home/johan/ros2_cv/build/turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'johan'), ('SSH_AGENT_PID', '1897'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/tbb-2019_U8/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/johan'), ('OLDPWD', '/home/johan/ros2_cv/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1749'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=711caa406997853908410e3465474468'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johan'), ('JOURNAL_STREAM', '8:30679'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/johan:@/tmp/.ICE-unix/1964,unix/johan:/tmp/.ICE-unix/1964'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '9f70f7bd50404f09a668b261c07b9dda'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac8e54e5_a1d7_411e_9d2d_e8d21af05cd9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/johan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.520'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/johan'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johan/ros2_cv/build/turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=711caa406997853908410e3465474468'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.101139] (-) TimerEvent: {}
+[1.113351] (turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_publisher\x1b[0m\n'}
+[1.138491] (turtle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o\x1b[0m\n'}
+[1.201324] (-) TimerEvent: {}
+[1.301738] (-) TimerEvent: {}
+[1.402221] (-) TimerEvent: {}
+[1.502575] (-) TimerEvent: {}
+[1.602946] (-) TimerEvent: {}
+[1.703205] (-) TimerEvent: {}
+[1.803564] (-) TimerEvent: {}
+[1.872701] (turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtlesimNode::publishMotion()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.872975] (turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:21:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[1.873088] (turtle) StderrLine: {'line': b'   21 |     double \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = 0.0;\n'}
+[1.873180] (turtle) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.873266] (turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:22:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[1.873353] (turtle) StderrLine: {'line': b'   22 |     double \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = 0.0;\n'}
+[1.873437] (turtle) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.903716] (-) TimerEvent: {}
+[2.004152] (-) TimerEvent: {}
+[2.104543] (-) TimerEvent: {}
+[2.205007] (-) TimerEvent: {}
+[2.226632] (turtle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_publisher\x1b[0m\n'}
+[2.281592] (turtle) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[2.281833] (turtle) StderrLine: {'line': b"(.text+0x24): undefined reference to `main'\n"}
+[2.281944] (turtle) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.282705] (turtle) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_publisher.dir/build.make:136\xef\xbc\x9aturtle_publisher] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.283293] (turtle) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78\xef\xbc\x9aCMakeFiles/turtle_publisher.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.283407] (turtle) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.284738] (turtle) CommandEnded: {'returncode': 2}
+[2.305248] (-) TimerEvent: {}
+[2.311923] (turtle) JobEnded: {'identifier': 'turtle', 'rc': 2}
+[2.405457] (-) TimerEvent: {}
+[2.505888] (-) TimerEvent: {}
+[2.606315] (-) TimerEvent: {}
+[2.706856] (-) TimerEvent: {}
+[2.722551] (ros2_cv_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cv_publisher\x1b[0m\n'}
+[2.807078] (-) TimerEvent: {}
+[2.907403] (-) TimerEvent: {}
+[3.007783] (-) TimerEvent: {}
+[3.108134] (-) TimerEvent: {}
+[3.133613] (ros2_cv_pkg) StdoutLine: {'line': b'[ 75%] Built target cv_publisher\n'}
+[3.208358] (-) TimerEvent: {}
+[3.308754] (-) TimerEvent: {}
+[3.409177] (-) TimerEvent: {}
+[3.509649] (-) TimerEvent: {}
+[3.610125] (-) TimerEvent: {}
+[3.710550] (-) TimerEvent: {}
+[3.811122] (-) TimerEvent: {}
+[3.911566] (-) TimerEvent: {}
+[4.012001] (-) TimerEvent: {}
+[4.030434] (ros2_cv_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cv_subscription\x1b[0m\n'}
+[4.112189] (-) TimerEvent: {}
+[4.212542] (-) TimerEvent: {}
+[4.312916] (-) TimerEvent: {}
+[4.413279] (-) TimerEvent: {}
+[4.487067] (ros2_cv_pkg) StdoutLine: {'line': b'[100%] Built target cv_subscription\n'}
+[4.496357] (ros2_cv_pkg) JobEnded: {'identifier': 'ros2_cv_pkg', 'rc': 'SIGINT'}
+[4.507688] (-) EventReactorShutdown: {}

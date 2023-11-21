@@ -1,0 +1,9 @@
+[0.018s] Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/ros2_cv_pkg -- -j16 -l16
+[0.045s] [35m[1mScanning dependencies of target cv_publisher[0m
+[0.045s] [35m[1mScanning dependencies of target cv_subscription[0m
+[0.069s] [ 25%] [32mBuilding CXX object CMakeFiles/cv_subscription.dir/src/cv_subscription.cpp.o[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/cv_publisher.dir/src/cv_publisher.cpp.o[0m
+[2.723s] [ 75%] [32m[1mLinking CXX executable cv_publisher[0m
+[3.134s] [ 75%] Built target cv_publisher
+[4.030s] [100%] [32m[1mLinking CXX executable cv_subscription[0m
+[4.487s] [100%] Built target cv_subscription

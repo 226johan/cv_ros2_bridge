@@ -1,0 +1,4 @@
+source;share/turtle/local_setup.bash
+source;share/turtle/local_setup.dsv
+source;share/turtle/local_setup.sh
+source;share/turtle/local_setup.zsh

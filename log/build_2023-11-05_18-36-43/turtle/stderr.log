@@ -1,0 +1,13 @@
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimNode::publishMotion()[m[K’:
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:21:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kx[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   21 |     double [01;35m[Kx[m[K = 0.0;
+      |            [01;35m[K^[m[K
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:22:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ky[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   22 |     double [01;35m[Ky[m[K = 0.0;
+      |            [01;35m[K^[m[K
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/turtle_publisher.dir/build.make:136：turtle_publisher] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/turtle_publisher.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

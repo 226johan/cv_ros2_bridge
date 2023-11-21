@@ -1,0 +1,2 @@
+Invoking command in '/home/johan/ros2_cv/build/turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16
+Invoked command in '/home/johan/ros2_cv/build/turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16

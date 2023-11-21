@@ -1,0 +1,7 @@
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimNode::publishMotion()[m[K’:
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:24:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |       double [01;35m[Kx[m[K = radius_x_ * cos(t);
+      |              [01;35m[K^[m[K
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:25:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |       double [01;35m[Ky[m[K = radius_y_ * sin(t);
+      |              [01;35m[K^[m[K

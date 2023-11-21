@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/johan/ros2_cv/build/turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16
+[0.039s] [35m[1mScanning dependencies of target turtle_publisher[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o[0m
+[0.774s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimNode::publishMotion()[m[K’:
+[0.774s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:24:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.774s]    24 |       double [01;35m[Kx[m[K = radius_x_ * cos(t);
+[0.774s]       |              [01;35m[K^[m[K
+[0.774s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:25:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.774s]    25 |       double [01;35m[Ky[m[K = radius_y_ * sin(t);
+[0.774s]       |              [01;35m[K^[m[K
+[1.114s] [100%] [32m[1mLinking CXX executable turtle_publisher[0m
+[1.175s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.175s] (.text+0x24): undefined reference to `main'
+[1.175s] collect2: error: ld returned 1 exit status
+[1.176s] make[2]: *** [CMakeFiles/turtle_publisher.dir/build.make:136：turtle_publisher] 错误 1
+[1.176s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/turtle_publisher.dir/all] 错误 2
+[1.176s] make: *** [Makefile:141：all] 错误 2
+[1.179s] Invoked command in '/home/johan/ros2_cv/build/turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16

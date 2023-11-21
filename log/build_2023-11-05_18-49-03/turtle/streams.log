@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/johan/ros2_cv/build/turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16
+[0.040s] [35m[1mScanning dependencies of target turtle_publisher[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o[0m
+[0.773s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimNode::publishMotion()[m[K’:
+[0.773s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:23:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.773s]    23 |       double [01;35m[Kx[m[K = radius_x_ * cos(t);
+[0.773s]       |              [01;35m[K^[m[K
+[0.773s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:24:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.773s]    24 |       double [01;35m[Ky[m[K = radius_y_ * sin(t);
+[0.773s]       |              [01;35m[K^[m[K
+[1.731s] [100%] [32m[1mLinking CXX executable turtle_publisher[0m
+[1.830s] [100%] Built target turtle_publisher
+[1.838s] Invoked command in '/home/johan/ros2_cv/build/turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16
+[1.855s] Invoking command in '/home/johan/ros2_cv/build/turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/turtle
+[1.861s] -- Install configuration: ""
+[1.861s] -- Installing: /home/johan/ros2_cv/install/turtle/lib/turtle/turtle_publisher
+[1.861s] -- Set runtime path of "/home/johan/ros2_cv/install/turtle/lib/turtle/turtle_publisher" to ""
+[1.861s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/package_run_dependencies/turtle
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/parent_prefix_path/turtle
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/environment/ament_prefix_path.sh
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/environment/ament_prefix_path.dsv
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/environment/path.sh
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/environment/path.dsv
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.bash
+[1.862s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.sh
+[1.863s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.zsh
+[1.863s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.dsv
+[1.865s] -- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/package.dsv
+[1.865s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/packages/turtle
+[1.865s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/cmake/turtleConfig.cmake
+[1.865s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/cmake/turtleConfig-version.cmake
+[1.865s] -- Up-to-date: /home/johan/ros2_cv/install/turtle/share/turtle/package.xml
+[1.866s] Invoked command in '/home/johan/ros2_cv/build/turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/turtle

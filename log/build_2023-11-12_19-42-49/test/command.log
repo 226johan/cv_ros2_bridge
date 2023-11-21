@@ -1,0 +1,4 @@
+Invoking command in '/home/johan/ros2_cv/build/test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/test -- -j16 -l16
+Invoked command in '/home/johan/ros2_cv/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/test -- -j16 -l16
+Invoking command in '/home/johan/ros2_cv/build/test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/test
+Invoked command in '/home/johan/ros2_cv/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/test

@@ -1,0 +1,69 @@
+[0.010s] Invoking command in '/home/johan/ros2_cv/build/turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/ros2_cv/src/turtle -DCMAKE_INSTALL_PREFIX=/home/johan/ros2_cv/install/turtle
+[0.045s] -- The C compiler identification is GNU 9.4.0
+[0.081s] -- The CXX compiler identification is GNU 9.4.0
+[0.085s] -- Check for working C compiler: /usr/bin/cc
+[0.131s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.132s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.194s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.254s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.326s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.342s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.466s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.501s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.564s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.585s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] -- Looking for pthread.h
+[0.728s] -- Looking for pthread.h - found
+[0.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.782s] -- Looking for pthread_create in pthreads
+[0.827s] -- Looking for pthread_create in pthreads - not found
+[0.828s] -- Looking for pthread_create in pthread
+[0.879s] -- Looking for pthread_create in pthread - found
+[0.880s] -- Found Threads: TRUE  
+[0.982s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.007s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.059s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johan/ros2_cv/src/turtle/include>
+[1.059s] -- Configured cppcheck exclude dirs and/or files: 
+[1.059s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.059s] -- Configured cpplint exclude dirs and/or files: 
+[1.060s] -- Added test 'lint_cmake' to check CMake code style
+[1.060s] -- Added test 'uncrustify' to check C / C++ code style
+[1.060s] -- Configured uncrustify additional arguments: 
+[1.060s] -- Added test 'xmllint' to check XML markup files
+[1.062s] -- Configuring done
+[1.066s] -- Generating done
+[1.067s] -- Build files have been written to: /home/johan/ros2_cv/build/turtle
+[1.071s] Invoked command in '/home/johan/ros2_cv/build/turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/ros2_cv/src/turtle -DCMAKE_INSTALL_PREFIX=/home/johan/ros2_cv/install/turtle
+[1.074s] Invoking command in '/home/johan/ros2_cv/build/turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16
+[1.103s] [35m[1mScanning dependencies of target turtle_publisher[0m
+[1.129s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o[0m
+[1.863s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimNode::publishMotion()[m[K’:
+[1.863s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:21:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kx[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.863s]    21 |     double [01;35m[Kx[m[K = 0.0;
+[1.863s]       |            [01;35m[K^[m[K
+[1.863s] [01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:22:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ky[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.863s]    22 |     double [01;35m[Ky[m[K = 0.0;
+[1.863s]       |            [01;35m[K^[m[K
+[2.217s] [100%] [32m[1mLinking CXX executable turtle_publisher[0m
+[2.272s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.272s] (.text+0x24): undefined reference to `main'
+[2.272s] collect2: error: ld returned 1 exit status
+[2.273s] make[2]: *** [CMakeFiles/turtle_publisher.dir/build.make:136：turtle_publisher] 错误 1
+[2.273s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/turtle_publisher.dir/all] 错误 2
+[2.273s] make: *** [Makefile:141：all] 错误 2
+[2.275s] Invoked command in '/home/johan/ros2_cv/build/turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/turtle -- -j16 -l16

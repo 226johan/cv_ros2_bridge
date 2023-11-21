@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target turtle_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o[0m
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimNode::publishMotion()[m[K’:
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:24:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |       double [01;35m[Kx[m[K = radius_x_ * cos(t);
+      |              [01;35m[K^[m[K
+[01m[K/home/johan/ros2_cv/src/turtle/src/turtle_publisher.cpp:25:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |       double [01;35m[Ky[m[K = radius_y_ * sin(t);
+      |              [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable turtle_publisher[0m
+[100%] Built target turtle_publisher
+-- Install configuration: ""
+-- Installing: /home/johan/ros2_cv/install/turtle/lib/turtle/turtle_publisher
+-- Set runtime path of "/home/johan/ros2_cv/install/turtle/lib/turtle/turtle_publisher" to ""
+-- Installing: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/package_run_dependencies/turtle
+-- Installing: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/parent_prefix_path/turtle
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/ament_prefix_path.sh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/ament_prefix_path.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/path.sh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/path.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.bash
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.sh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.zsh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/package.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/packages/turtle
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/cmake/turtleConfig.cmake
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/cmake/turtleConfig-version.cmake
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/package.xml

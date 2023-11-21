@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target turtle_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_publisher[0m
+[100%] Built target turtle_publisher
+-- Install configuration: ""
+-- Installing: /home/johan/ros2_cv/install/turtle/lib/turtle/turtle_publisher
+-- Set runtime path of "/home/johan/ros2_cv/install/turtle/lib/turtle/turtle_publisher" to ""
+-- Installing: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/package_run_dependencies/turtle
+-- Installing: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/parent_prefix_path/turtle
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/ament_prefix_path.sh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/ament_prefix_path.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/path.sh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/environment/path.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.bash
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.sh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.zsh
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/local_setup.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/package.dsv
+-- Installing: /home/johan/ros2_cv/install/turtle/share/ament_index/resource_index/packages/turtle
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/cmake/turtleConfig.cmake
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/cmake/turtleConfig-version.cmake
+-- Installing: /home/johan/ros2_cv/install/turtle/share/turtle/package.xml

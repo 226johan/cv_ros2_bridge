@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target turtle_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_publisher.dir/src/turtle_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_publisher[0m

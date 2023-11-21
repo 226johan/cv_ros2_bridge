@@ -1,0 +1,1 @@
+Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/ros2_cv_pkg -- -j16 -l16

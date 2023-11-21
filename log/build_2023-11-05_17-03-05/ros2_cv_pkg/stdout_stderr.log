@@ -1,0 +1,49 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johan/ros2_cv/src/ros2_cv_pkg/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/johan/ros2_cv/build/ros2_cv_pkg
+[35m[1mScanning dependencies of target cv_publisher[0m
+[ 50%] Built target cv_subscription
+[ 75%] [32mBuilding CXX object CMakeFiles/cv_publisher.dir/src/cv_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cv_publisher[0m
+[100%] Built target cv_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription
+-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_publisher
+-- Set runtime path of "/home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_publisher" to ""
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_cv_pkg
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_cv_pkg
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.sh
+-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.dsv
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.bash
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.sh
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.zsh
+-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.dsv
+-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.dsv
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/packages/ros2_cv_pkg
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig.cmake
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig-version.cmake
+-- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.xml

@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target cv_publisher[0m
+[ 50%] Built target cv_subscription
+[ 75%] [32mBuilding CXX object CMakeFiles/cv_publisher.dir/src/cv_publisher.cpp.o[0m

@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (ros2_cv_pkg) JobQueued: {'identifier': 'ros2_cv_pkg', 'dependencies': OrderedDict()}
+[0.001130] (ros2_cv_pkg) JobStarted: {'identifier': 'ros2_cv_pkg'}
+[0.008718] (ros2_cv_pkg) JobProgress: {'identifier': 'ros2_cv_pkg', 'progress': 'cmake'}
+[0.009072] (ros2_cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/johan/ros2_cv/src/ros2_cv_pkg', '-DCMAKE_INSTALL_PREFIX=/home/johan/ros2_cv/install/ros2_cv_pkg'], 'cwd': '/home/johan/ros2_cv/build/ros2_cv_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'johan'), ('SSH_AGENT_PID', '1897'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/tbb-2019_U8/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/johan'), ('OLDPWD', '/home/johan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johan'), ('JOURNAL_STREAM', '8:49627'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/johan:@/tmp/.ICE-unix/1964,unix/johan:/tmp/.ICE-unix/1964'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '58a5cfa008d344e2a918e3fecd4bba24'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df1582d3_39d8_4af9_943a_ec196073ac12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/johan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.257'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/johan'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johan/ros2_cv/build/ros2_cv_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.050533] (ros2_cv_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.098377] (ros2_cv_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.099862] (-) TimerEvent: {}
+[0.101203] (ros2_cv_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.160931] (ros2_cv_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.161654] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200006] (-) TimerEvent: {}
+[0.221823] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.231678] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231913] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.233443] (ros2_cv_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.290440] (ros2_cv_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.291175] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300108] (-) TimerEvent: {}
+[0.370160] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.378223] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.378713] (ros2_cv_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.380685] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.399564] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.399733] (ros2_cv_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400188] (-) TimerEvent: {}
+[0.500485] (-) TimerEvent: {}
+[0.518671] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.549541] (ros2_cv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.554025] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600574] (-) TimerEvent: {}
+[0.609246] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.630414] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.683574] (ros2_cv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700693] (-) TimerEvent: {}
+[0.721112] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.721861] (ros2_cv_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.722637] (ros2_cv_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.772394] (ros2_cv_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.772703] (ros2_cv_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800803] (-) TimerEvent: {}
+[0.830524] (ros2_cv_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.830756] (ros2_cv_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.896362] (ros2_cv_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.896756] (ros2_cv_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.900870] (-) TimerEvent: {}
+[0.963255] (ros2_cv_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.964697] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000947] (-) TimerEvent: {}
+[1.070918] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.101078] (-) TimerEvent: {}
+[1.150776] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.168357] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.201192] (-) TimerEvent: {}
+[1.205389] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.1.0") \n'}
+[1.226099] (ros2_cv_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.275425] (ros2_cv_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.276107] (ros2_cv_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.276201] (ros2_cv_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johan/ros2_cv/src/ros2_cv_pkg/include>\n'}
+[1.276246] (ros2_cv_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.276593] (ros2_cv_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.276635] (ros2_cv_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.276972] (ros2_cv_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.277408] (ros2_cv_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.277453] (ros2_cv_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.277607] (ros2_cv_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.279461] (ros2_cv_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.289012] (ros2_cv_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.289823] (ros2_cv_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/johan/ros2_cv/build/ros2_cv_pkg\n'}
+[1.295565] (ros2_cv_pkg) CommandEnded: {'returncode': 0}
+[1.295944] (ros2_cv_pkg) JobProgress: {'identifier': 'ros2_cv_pkg', 'progress': 'build'}
+[1.296567] (ros2_cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johan/ros2_cv/build/ros2_cv_pkg', '--', '-j16', '-l16'], 'cwd': '/home/johan/ros2_cv/build/ros2_cv_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'johan'), ('SSH_AGENT_PID', '1897'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/tbb-2019_U8/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/johan'), ('OLDPWD', '/home/johan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johan'), ('JOURNAL_STREAM', '8:49627'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/johan:@/tmp/.ICE-unix/1964,unix/johan:/tmp/.ICE-unix/1964'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '58a5cfa008d344e2a918e3fecd4bba24'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df1582d3_39d8_4af9_943a_ec196073ac12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/johan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.257'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/johan'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johan/ros2_cv/build/ros2_cv_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.301300] (-) TimerEvent: {}
+[1.332339] (ros2_cv_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cv_subscription\x1b[0m\n'}
+[1.364944] (ros2_cv_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cv_subscription.dir/src/cv_subscription.cpp.o\x1b[0m\n'}
+[1.401413] (-) TimerEvent: {}
+[1.501726] (-) TimerEvent: {}
+[1.602069] (-) TimerEvent: {}
+[1.702409] (-) TimerEvent: {}
+[1.802660] (-) TimerEvent: {}
+[1.902991] (-) TimerEvent: {}
+[2.003342] (-) TimerEvent: {}
+[2.103729] (-) TimerEvent: {}
+[2.204229] (-) TimerEvent: {}
+[2.304586] (-) TimerEvent: {}
+[2.404931] (-) TimerEvent: {}
+[2.505198] (-) TimerEvent: {}
+[2.605484] (-) TimerEvent: {}
+[2.705762] (-) TimerEvent: {}
+[2.806072] (-) TimerEvent: {}
+[2.906380] (-) TimerEvent: {}
+[3.006820] (-) TimerEvent: {}
+[3.107169] (-) TimerEvent: {}
+[3.207586] (-) TimerEvent: {}
+[3.307905] (-) TimerEvent: {}
+[3.408344] (-) TimerEvent: {}
+[3.508749] (-) TimerEvent: {}
+[3.609169] (-) TimerEvent: {}
+[3.709564] (-) TimerEvent: {}
+[3.809932] (-) TimerEvent: {}
+[3.910374] (-) TimerEvent: {}
+[4.010795] (-) TimerEvent: {}
+[4.111246] (-) TimerEvent: {}
+[4.211640] (-) TimerEvent: {}
+[4.312062] (-) TimerEvent: {}
+[4.412484] (-) TimerEvent: {}
+[4.512892] (-) TimerEvent: {}
+[4.613274] (-) TimerEvent: {}
+[4.713614] (-) TimerEvent: {}
+[4.814037] (-) TimerEvent: {}
+[4.914455] (-) TimerEvent: {}
+[5.014886] (-) TimerEvent: {}
+[5.115262] (-) TimerEvent: {}
+[5.215585] (-) TimerEvent: {}
+[5.269093] (ros2_cv_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cv_subscription\x1b[0m\n'}
+[5.315751] (-) TimerEvent: {}
+[5.416165] (-) TimerEvent: {}
+[5.516605] (-) TimerEvent: {}
+[5.616980] (-) TimerEvent: {}
+[5.717229] (-) TimerEvent: {}
+[5.745899] (ros2_cv_pkg) StdoutLine: {'line': b'[100%] Built target cv_subscription\n'}
+[5.754470] (ros2_cv_pkg) CommandEnded: {'returncode': 0}
+[5.774382] (ros2_cv_pkg) JobProgress: {'identifier': 'ros2_cv_pkg', 'progress': 'install'}
+[5.784007] (ros2_cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/johan/ros2_cv/build/ros2_cv_pkg'], 'cwd': '/home/johan/ros2_cv/build/ros2_cv_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'johan'), ('SSH_AGENT_PID', '1897'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/tbb-2019_U8/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/johan'), ('OLDPWD', '/home/johan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'johan'), ('JOURNAL_STREAM', '8:49627'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/johan:@/tmp/.ICE-unix/1964,unix/johan:/tmp/.ICE-unix/1964'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '58a5cfa008d344e2a918e3fecd4bba24'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df1582d3_39d8_4af9_943a_ec196073ac12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/johan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.257'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/johan'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/johan/ros2_cv/build/ros2_cv_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.793597] (ros2_cv_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.793853] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription\n'}
+[5.795221] (ros2_cv_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription" to ""\n'}
+[5.795397] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_cv_pkg\n'}
+[5.795656] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_cv_pkg\n'}
+[5.795951] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.sh\n'}
+[5.796087] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.dsv\n'}
+[5.796208] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.sh\n'}
+[5.796300] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.dsv\n'}
+[5.796387] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.bash\n'}
+[5.796473] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.sh\n'}
+[5.796575] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.zsh\n'}
+[5.796661] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.dsv\n'}
+[5.796746] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.dsv\n'}
+[5.796833] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/packages/ros2_cv_pkg\n'}
+[5.796954] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig.cmake\n'}
+[5.797044] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig-version.cmake\n'}
+[5.797306] (ros2_cv_pkg) StdoutLine: {'line': b'-- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.xml\n'}
+[5.797969] (ros2_cv_pkg) CommandEnded: {'returncode': 0}
+[5.817423] (-) TimerEvent: {}
+[5.836628] (ros2_cv_pkg) JobEnded: {'identifier': 'ros2_cv_pkg', 'rc': 0}
+[5.837238] (-) EventReactorShutdown: {}

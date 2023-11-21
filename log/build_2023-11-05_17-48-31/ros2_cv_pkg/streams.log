@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/ros2_cv_pkg -- -j16 -l16
+[0.045s] [35m[1mScanning dependencies of target cv_publisher[0m
+[0.059s] [ 50%] Built target cv_subscription
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/cv_publisher.dir/src/cv_publisher.cpp.o[0m
+[3.926s] [100%] [32m[1mLinking CXX executable cv_publisher[0m
+[4.381s] [100%] Built target cv_publisher
+[4.390s] Invoked command in '/home/johan/ros2_cv/build/ros2_cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/ros2_cv_pkg -- -j16 -l16
+[4.434s] Invoking command in '/home/johan/ros2_cv/build/ros2_cv_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/ros2_cv_pkg
+[4.444s] -- Install configuration: ""
+[4.445s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_subscription
+[4.445s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_publisher
+[4.446s] -- Set runtime path of "/home/johan/ros2_cv/install/ros2_cv_pkg/lib/ros2_cv_pkg/cv_publisher" to ""
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_cv_pkg
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_cv_pkg
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.sh
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/ament_prefix_path.dsv
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.sh
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/environment/path.dsv
+[4.447s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.bash
+[4.448s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.sh
+[4.448s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.zsh
+[4.448s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/local_setup.dsv
+[4.448s] -- Installing: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.dsv
+[4.448s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ament_index/resource_index/packages/ros2_cv_pkg
+[4.449s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig.cmake
+[4.449s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/cmake/ros2_cv_pkgConfig-version.cmake
+[4.449s] -- Up-to-date: /home/johan/ros2_cv/install/ros2_cv_pkg/share/ros2_cv_pkg/package.xml
+[4.451s] Invoked command in '/home/johan/ros2_cv/build/ros2_cv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/ros2_cv_pkg

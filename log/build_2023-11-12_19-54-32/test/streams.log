@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/home/johan/ros2_cv/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/test -- -j16 -l16
+[0.055s] [100%] Built target publisher
+[0.064s] Invoked command in '/home/johan/ros2_cv/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/ros2_cv/build/test -- -j16 -l16
+[0.089s] Invoking command in '/home/johan/ros2_cv/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/test
+[0.095s] -- Install configuration: ""
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/lib/test/publisher
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/environment/path.sh
+[0.095s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/environment/path.dsv
+[0.096s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/local_setup.bash
+[0.096s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/local_setup.sh
+[0.097s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/local_setup.zsh
+[0.098s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/local_setup.dsv
+[0.099s] -- Installing: /home/johan/ros2_cv/install/test/share/test/package.dsv
+[0.099s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/ament_index/resource_index/packages/test
+[0.099s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/cmake/testConfig.cmake
+[0.099s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/cmake/testConfig-version.cmake
+[0.099s] -- Up-to-date: /home/johan/ros2_cv/install/test/share/test/package.xml
+[0.100s] Invoked command in '/home/johan/ros2_cv/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/ros2_cv/build/test
